@@ -3,7 +3,6 @@
 //ANGGOTA KELOMPOK
 //ANANTA MIYORU WIJAYA 	- 5221600015
 //HUSEIN AZKA EFFENDI 	- 5221600006
-//RONALD ARSYAD 	- 5221600028
 
 
 #define _USE_MATH_DEFINES 
@@ -31,7 +30,7 @@ bool bShouldReverse = false;
 void drawChair()
 {
 	float width = 10;
-	glTranslatef(X, Y, angle);
+	glTranslatef(0.0f, 0,0f, angle);
 
 	//kaki kanan
 	glPushMatrix();
