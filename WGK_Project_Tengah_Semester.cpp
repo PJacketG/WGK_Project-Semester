@@ -200,7 +200,7 @@ void drawDesk()
 	
 	//depan
 	glPushMatrix();
-	glColor3f(0.5, 0.5, 0.5);
+	glColor3f(1.0f, 0.90f, 0.5f);
 	glTranslated(1.0, 42.5 , 20.0);
 	//glRotatef(90, 1.0f, 0.0f, 0.0f);
 	glScalef(18.0, 14.75, 1.0);
